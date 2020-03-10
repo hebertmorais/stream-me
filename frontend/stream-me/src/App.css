@@ -1,0 +1,57 @@
+.container{
+  background: linear-gradient(135deg, #0079bf, #5067c5);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.board {
+  display: flex;
+  overflow: hidden;
+  height: 75vh;
+  width: 60vw;
+  max-height: 530px;
+  border-radius: 30px;
+  background: white;
+  box-shadow: 1px 1px 13px #00000052;
+}
+
+.stream-display {
+  height: 100%;
+  width: 70%;
+  background: blue;
+}
+
+.stream-chat {
+  height: 100%;
+  width: 30%;
+}
+
+.chat-item{
+  padding: 8px;
+  display: flex;
+}
+
+.thumbnail{
+  width: 25px;
+  height: 25px;
+  padding: 0 4px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.username{
+  color: #5067c5;
+  text-decoration: underline;
+  margin-right: 4px;
+}
+
+.user-input{
+  padding-top: 2px;
+}
+
+.message{
+  color: gray;
+}
